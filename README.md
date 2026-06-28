@@ -1,6 +1,10 @@
 # Framework for Proportional AI Responsibility, Resource Governance, and Biosphere Preservation (v2.0)
 
-This framework is maintained as an open, community-driven policy proposal. It is developed in connection with **[SustainAI.global](https://sustainai.global/)** — a Texas nonprofit (501(c)(3) pending) dedicated to workforce upskilling, ethical AI research, sustainable compute, and human–AI collaboration. The preamble below sets out philosophical intent; the operational sections that follow are meant to be refined through public consultation, sandboxes, and stakeholder feedback.
+This framework is maintained as an open, community-driven policy proposal by **[SustainAI.global](https://sustainai.global/)** — a Texas nonprofit (501(c)(3) pending) dedicated to workforce upskilling, ethical AI research, sustainable compute, and human–AI collaboration.
+
+**Canonical repository.** This repo ([SustainAI-Global/ai-policy-proposal](https://github.com/SustainAI-Global/ai-policy-proposal)) is the actively maintained version. It began as work by Jack Camier and is now developed and stewarded through SustainAI Global. An earlier individual draft remains at [jcamier/ai-policy-proposal](https://github.com/jcamier/ai-policy-proposal) for reference; this version is expected to diverge substantially as community input and nonprofit work continue.
+
+The preamble below sets out philosophical intent; the operational sections that follow are meant to be refined through public consultation, sandboxes, and stakeholder feedback. The project is released under the [MIT License](LICENSE).
 
 ## Preamble and Legislative Intent
 
@@ -174,5 +178,7 @@ This policy is a living document, and it only gets better through collaboration.
 
 ### A Note on Contributions
 There are no “wrong” contributions. Drafts, rough ideas, questions, or even one-sentence suggestions are all welcome. The goal is to capture diverse voices and refine them into a balanced and pragmatic AI policy.
+
+By contributing (issues, discussions, or pull requests), you agree that your contributions are licensed under the same [MIT License](LICENSE) as the rest of this repository, and may be maintained by SustainAI Global as part of this project.
 
 Your voice matters. Even a small suggestion can make a big difference. Let’s work together to build a sustainable and flourishing future for humanity and the biosphere.
