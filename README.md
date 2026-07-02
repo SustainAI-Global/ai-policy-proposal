@@ -21,7 +21,7 @@ This framework is not a speech code or a blanket AI licensing regime. It combine
 3. **Transparency nudges** — practicable public reporting of resource consumption where organizations can staff it, so markets, media, and reputational pressure—not centralized opinion control—shape stewardship (see Purpose and Scope above).
 4. **Human supremacy** — AI assists; qualified people decide in high-stakes domains and answer to courts when harm occurs (see §§1.1, 2.5, IV).
 
-The tradition is minimal criminal law, tort liability, and disclosure—not a ministry of truth or a gatekeeper on research, opinion, or open-source experimentation. Gray areas and disputed cases belong in human courts and independent redress mechanisms, not in preemptive algorithmic censorship.
+The tradition is minimal criminal law, tort liability, and disclosure—not a ministry of truth or a gatekeeper on research, opinion, or open-source experimentation. Gray areas and disputed cases belong in human courts and, where governments choose to establish them, community redress forums—not in preemptive algorithmic censorship.
 
 ### The North Star: Human Dignity and Biosphere Care
 Technology must serve as a force multiplier for human flourishing and planetary stewardship. AI systems must function as auxiliary tools that augment human capabilities rather than mechanisms that substitute for human dignity, erode fundamental civil liberties, or deplete natural resources. 
@@ -104,11 +104,11 @@ Regardless of an entity’s size, resource tier, or operational intent, certain 
 * **Liability and Penalty Structure:** **Uncapped and Systemic Strict Liability.** Tier 3 deployers assume total legal and financial accountability for failures originating from their operational choices. Because they are the primary entities financializing technology at scale, penalties for negligence, willful ignorance of known hazards, or systemic biosphere harms are un-capped or anchored directly to global annual turnover scales. This structure ensures that thorough safety verification remains structurally cheaper than corporate negligence.
 
 ### 2.5 High-Stakes Human-in-Command Requirements
-For domains where automated outputs directly affect individual liberty, livelihood, or safety, AI may assist analysis and drafting, but **final decisions must rest with qualified human authorities**. This is a deployer obligation scaled by tier—not a prohibition on speech or research, and it complements the absolute prohibitions in §2.1 (which ban certain capabilities outright) and the enforcement mechanisms in §4.1 (which provide explanation and redress when deployers fail).
+For domains where automated outputs directly affect individual liberty, livelihood, or safety, AI may assist analysis and drafting, but **final decisions must rest with qualified human authorities**. This is a deployer obligation scaled by tier—not a prohibition on speech or research, and it complements the absolute prohibitions in §2.1 (which ban certain capabilities outright) and the redress pathways described in §4.1 (deployer duties and recommended community forums).
 
 Tier 2 and Tier 3 deployers must ensure meaningful human review before finalizing outcomes in:
 * **Criminal justice:** Charging, sentencing, parole, probation, bail, and similar determinations may not be made autonomously by AI systems.
-* **Credit, employment, housing, insurance, healthcare, and essential services:** As described in §§2.3–2.4; individuals subjected to significant automated decisions retain rights to explanation and redress under §4.1.
+* **Credit, employment, housing, insurance, healthcare, and essential services:** As described in §§2.3–2.4; individuals subjected to significant automated decisions may request a plain-language explanation from the deployer, and may seek remedy through courts and tier-scaled liability as described in §4.1.
 
 Tier 1 entities experimenting in sandboxes must still respect universal red lines; high-stakes deployment into live consequential workflows triggers deployer-tier obligations regardless of upstream publisher safe harbor.
 
@@ -138,10 +138,17 @@ To maintain the safety of the ecosystem without compromising open-source safe ha
 
 ## IV. Enforcement, Redress, and Community Impact
 
-### 4.1 Local Ombuds and Citizen Redress Mechanisms
-To ensure that citizens, workers, and localized populations have immediate paths to remedy when impacted by algorithmic automated decisions, an independent network of **Local Ombuds** offices shall be maintained. These neutral offices sit entirely outside corporate structures and provide a zero-cost interface for public grievances.
-* **The Right to Explanation:** Any individual subjected to a significant automated decision by a Tier 2 or Tier 3 system (e.g., denial of credit, healthcare access, housing, or employment termination) possesses an enforceable right to a clear, plain-language explanation of the system's logic and data inputs.
-* **Redress Execution:** If an investigation reveals systematic bias or algorithmic malfunction, the Ombuds holds the authority to mandate corporate rollback, file for immediate data correction, and oversee appropriate financial compensation or alternative remedies provided by the responsible deployer.
+### 4.1 Local Ombuds and Community Redress (Recommended for Governments)
+When individuals are affected by algorithmic automated decisions, accessible paths to understand what happened and seek remedy matter—but **this framework does not mandate a funded Ombuds network**. Standing up independent offices requires public financing, staffing, jurisdictional authority, and ongoing independence from corporate and political capture. Those are choices for each local community, state, and country—not obligations this proposal can impose without a clear funding model.
+
+**Recommendation to governments and municipalities:** Where feasible, consider supporting **Local Ombuds** offices or equivalent community redress forums. Well-designed programs can:
+* Provide a low-barrier space for local discussion, grievance intake, and mediation when AI-assisted decisions affect housing, employment, credit, healthcare access, or similar domains
+* Help citizens navigate disputes without requiring immediate litigation
+* Complement—not replace—existing courts and the tier-scaled liability structure in §§2.2–2.4
+
+Governments that adopt such bodies must determine how they are funded (general revenue, deployer fees, grants, or hybrid models), how independence is preserved, and whether their orders bind multinationals across jurisdictions—these are open policy questions, not requirements of this framework.
+
+**Deployer obligations (enforceable without Ombuds infrastructure):** Tier 2 and Tier 3 deployers must, upon request, provide individuals affected by a significant automated decision (e.g., denial of credit, healthcare access, housing, or employment termination) with a clear, plain-language explanation of the system's logic and relevant data inputs. Remedy for systematic bias, malfunction, or harm flows primarily through **existing courts and tier-scaled liability**—not through a required Ombuds infrastructure. Where jurisdictions choose to establish Ombuds or similar forums, those bodies may facilitate discussion and mediation; they are a suggested good practice, not a precondition for this framework to operate.
 
 ### 4.2 Workforce Transition and Upskilling Mandates
 Technological shifts must not isolate working communities. To align market-driven automation with broad-based human flourishing, human capital transition strategies are required—funded strictly by the entities with the scale to support them.
@@ -184,7 +191,7 @@ If you have views on any of the questions below, please [open an issue](https://
 - **Abandoned projects:** If a maintainer receives a verified hazard notice but cannot patch (no contributors, archived repo), does full immunity still apply unless a commercial fork exception applies?
 
 ### Enforcement and governance
-- **Local Ombuds:** How are offices funded, staffed, and made independent of corporate and political capture? Do their orders bind multinationals across jurisdictions?
+- **Local Ombuds (optional):** For governments that choose to establish Ombuds or community redress forums, what funding models (public revenue, fees, grants) best preserve independence and access? Should their recommendations be binding or advisory?
 - **Government as deployer:** State organizations are listed as Tier 3 — same liability structure, or sovereign-immunity exceptions with alternative accountability?
 - **Penalty structure:** For Tier 3 “uncapped” liability, should there be per-incident caps, annual caps, or truly unlimited exposure for willful systemic harm?
 
@@ -196,7 +203,7 @@ If you have views on any of the questions below, please [open an issue](https://
 - **Environmental obligations:** The preamble treats biosphere preservation as paramount. Should Tier 2 and Tier 3 carry explicit public compute-energy and water reporting—and at what scale—without imposing renewable-use quotas or mandatory impact assessments that exceed an entity’s staffing capacity?
 
 ### International application
-- **Cross-border deployers:** When a Tier 3 multinational deploys in multiple countries, which jurisdiction’s tier rules, Ombuds, and penalties apply — incorporation country, user country, or harm location?
+- **Cross-border deployers:** When a Tier 3 multinational deploys in multiple countries, which jurisdiction’s tier rules and penalties apply — incorporation country, user country, or harm location?
 
 These questions do not weaken the framework; they mark where **community wisdom** is needed next. [SustainAI.global](https://sustainai.global/) exists to work on these ideas in practice — through education, research, and open collaboration — and this repository is one place to help shape them in policy.
 
