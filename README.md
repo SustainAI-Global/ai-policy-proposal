@@ -33,7 +33,7 @@ Furthermore, this policy explicitly recognizes the preservation of the **Biosphe
 ## I. Core Axioms and Definitions
 
 ### 1.1 The Principle of Algorithmic Non-Agency
-Artificial Intelligence systems, source code, neural network weights, and foundational mathematical models do not possess legal personhood, moral agency, or intrinsic liability. An algorithm cannot hold intent, experience culpability, or satisfy financial judgments. Consequently, legal accountability cannot be transferred, delegated, or imputed to an automated system. Moral and legal responsibility rests strictly, exclusively, and immutably with the legal persons—specifically humans, corporate entities, or government organs—that choose to operationalize and deploy these tools.
+Artificial Intelligence systems, source code, neural network weights, and foundational mathematical models do not possess legal personhood, moral agency, or intrinsic liability. An algorithm cannot hold intent, experience culpability, or satisfy financial judgments. Consequently, legal accountability cannot be transferred, delegated, or imputed to an automated system. Moral and legal responsibility rests strictly, exclusively, and immutably with the legal persons—specifically humans, corporate entities, or government organizations—that choose to operationalize and deploy these tools.
 
 ### 1.2 Definitional Boundaries
 * **Upstream Creator / Contributor:** Any individual, volunteer network, academic researcher, or organization that writes, trains, maintains, publishes, or distributes software source code, foundational model architectures, weights, or documentation under an open-source or public license without directly operationalizing it into a commercial or public-facing endpoint.
