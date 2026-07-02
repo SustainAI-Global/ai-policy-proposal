@@ -9,14 +9,24 @@ The preamble below sets out philosophical intent; the operational sections that 
 ## Preamble and Legislative Intent
 
 ### Purpose and Scope
-This framework establishes proportional, tier-scaled governance for AI development and deployment. Its purpose is threefold: to safeguard individuals and collective human communities from harm arising from AI systems; to preserve a legal safe harbor for researchers, startups, nonprofit organizations, and universities and colleges engaged in good-faith creation, publication, and experimentation; and to require practicable recording of computational resource consumption—including energy source, energy units, and water use where data exists—for entities of sufficient scale to employ dedicated personnel for that function. Regulatory obligations rise with an entity's resource tier: a large nonprofit with substantial revenue bears greater liability and compliance duties than a small startup with limited resources, regardless of mission or tax status. At the same time, certain absolute safety prohibitions apply at every tier—no entity, however small, may develop or deploy AI for universally prohibited purposes, including biological, chemical, radiological, or nuclear weaponization support.
+This framework establishes proportional, tier-scaled governance for AI development and deployment. Its purpose is threefold: to safeguard individuals and collective human communities from harm arising from AI systems; to preserve a legal safe harbor for open-source developers, researchers, startups, nonprofit organizations, and universities and colleges engaged in good-faith creation, publication, and experimentation—with liability attaching to deployment, not publication, so that organizations that choose to use and operationalize shared code bear accountability, not those who published it; and to require practicable recording of computational resource consumption—including energy source, energy units, and water use where data exists—for entities of sufficient scale to employ dedicated personnel for that function. Regulatory obligations rise with an entity's resource tier: a large nonprofit with substantial revenue bears greater liability and compliance duties than a small startup with limited resources, regardless of mission or tax status. At the same time, certain absolute safety prohibitions apply at every tier—no entity, however small, may develop or deploy AI for universally prohibited purposes, including weaponization support, child exploitation, active financial fraud, and conduct-based electoral interference, as detailed in §2.1.
 
 AI systems, algorithms, and models cannot be held legally accountable. Liability rests exclusively with humans, companies, governments, and other organizations—the people and institutions that choose to build, deploy, and monitor these tools—so that human judgment and oversight remain essential no matter how capable the technology becomes. Environmental reporting is designed as a transparency mechanism intended to encourage deliberate resource stewardship rather than impose uniform audit burdens on organizations lacking the capacity to comply.
+
+### Guiding Principles
+This framework is not a speech code or a blanket AI licensing regime. It combines four elements:
+
+1. **Constitutional red lines** — few, objective, universal prohibitions on capabilities that threaten mass harm, vulnerable victims, or stolen property (see §2.1).
+2. **Commercial liability** — obligations that scale with organizational size and resources at deployment, not at publication (see §§II–III).
+3. **Transparency nudges** — practicable public reporting of resource consumption where organizations can staff it, so markets, media, and reputational pressure—not centralized opinion control—shape stewardship (see Purpose and Scope above).
+4. **Human supremacy** — AI assists; qualified people decide in high-stakes domains and answer to courts when harm occurs (see §§1.1, 2.5, IV).
+
+The tradition is minimal criminal law, tort liability, and disclosure—not a ministry of truth or a gatekeeper on research, opinion, or open-source experimentation. Gray areas and disputed cases belong in human courts and independent redress mechanisms, not in preemptive algorithmic censorship.
 
 ### The North Star: Human Dignity and Biosphere Care
 Technology must serve as a force multiplier for human flourishing and planetary stewardship. AI systems must function as auxiliary tools that augment human capabilities rather than mechanisms that substitute for human dignity, erode fundamental civil liberties, or deplete natural resources. 
 
-Furthermore, this policy explicitly recognizes the preservation of the **Biosphere**—the delicate, closed global ecosystem of humans, animals, plants, and supporting environments—as a paramount duty. The biosphere is humanity’s shared lifecycle, a fragile vessel sustaining our current existence and serving as the foundational launchpad for long-term multi-planetary and interstellar horizons. Algorithmic deployments must be audited for environmental sustainability, and their regulatory burdens must be allocated equitably to ensure that environmental and societal protections do not stifle localized, public-good innovations.
+Furthermore, this policy explicitly recognizes the preservation of the **Biosphere**—the delicate, closed global ecosystem of humans, animals, plants, and supporting environments—as a paramount duty. The biosphere is humanity’s shared lifecycle, a fragile vessel sustaining our current existence and serving as the foundational launchpad for long-term multi-planetary and interstellar horizons. Larger deployers should record and, where practicable, publish resource-use metrics so organizations and the public can weigh environmental impact; regulatory burdens must be allocated equitably to ensure that biosphere stewardship does not stifle localized, public-good innovations.
 
 ---
 
@@ -65,6 +75,11 @@ Regardless of an entity’s size, resource tier, or operational intent, certain 
 1.  **Autonomous Lethal Kinetic Operations:** Weaponized hardware or software systems designed to select and engage human targets with lethal force entirely absent meaningful human-in-command confirmation.
 2.  **Untargeted Mass Biometric Surveillance:** Real-time, indiscriminate biometric tracking and predictive policing algorithms deployed in public spaces by non-cooperative state or corporate actors.
 3.  **CBRN Weaponization Support:** Software optimization loops or expert systems configured to lower the technical barriers to synthesis, engineering, or deployment of Chemical, Biological, Radiological, or Nuclear weapons.
+4.  **Child Safety Violations:** Creation, distribution, or facilitation of child sexual abuse material (CSAM)—including AI-generated CSAM; grooming, sextortion, or trafficking of minors; or systems designed to sexualize, impersonate, or exploit individuals under 18.
+5.  **Financial Fraud and Active Scamming:** Automated phishing, investment or payment fraud, business-email compromise, impersonation of financial institutions or individuals for monetary gain, or other systems whose primary operational purpose is to obtain money or credentials through deception.
+6.  **Electoral Process Interference (Conduct-Based):** Tampering with or unauthorized access to voting systems, vote tabulation, or certification infrastructure; deceptive voter suppression (e.g., false polling locations, dates, or eligibility instructions); synthetic impersonation of election officials to issue fraudulent binding directives; undisclosed mass automated outreach designed to manipulate turnout while concealing artificial origin; or generation of fraudulent election documents such as forged ballots or registrations.
+
+**Explicitly out of scope.** This framework does not prohibit political opinion, satire, advocacy, or contested factual claims—including health, science, or historical assertions that authorities may label “misinformation.” Categories of speech that governments or incumbents can redefine are intentionally excluded to protect dissent, whistleblowing, and free inquiry. Where harm arises from verifiable criminal *conduct* (fraud, CSAM, electoral tampering), it is addressed through the objective prohibitions above—not through speech-labeling regimes.
 
 ### 2.2 Tier 1: Micro-Enterprises, Grassroots Initiatives, and Volunteer Non-Profits
 * **Target Metrics:** Independent developers, academic labs, bootstrapped early-stage startups, and volunteer-driven non-profit organizations characterized by minimal annual revenue (e.g., under $2,000,000 USD) and relying primarily on unpaid volunteers or a small cohort of paid personnel. **Unpaid volunteers are explicitly excluded from personnel headcounts.**
@@ -80,6 +95,15 @@ Regardless of an entity’s size, resource tier, or operational intent, certain 
 * **Target Metrics:** Multinational conglomerates, massive technology platforms, market-dominant corporations, and major government agencies possessing expansive capital assets, vast compute allocations, and substantial paid staff.
 * **Compliance Posture:** Comprehensive, independent accountability. Because Tier 3 entities possess the financial runway, physical infrastructure, and human capital required to thoroughly stress-test their operational environments, they bear the full administrative burden of governance. They must conduct mandatory, independent third-party safety audits, publish open verification of adversarial red-teaming, maintain immutable telemetry logs, and demonstrate robust bias-mitigation frameworks prior to wide-scale deployment.
 * **Liability and Penalty Structure:** **Uncapped and Systemic Strict Liability.** Tier 3 deployers assume total legal and financial accountability for failures originating from their operational choices. Because they are the primary entities financializing technology at scale, penalties for negligence, willful ignorance of known hazards, or systemic biosphere harms are un-capped or anchored directly to global annual turnover scales. This structure ensures that thorough safety verification remains structurally cheaper than corporate negligence.
+
+### 2.5 High-Stakes Human-in-Command Requirements
+For domains where automated outputs directly affect individual liberty, livelihood, or safety, AI may assist analysis and drafting, but **final decisions must rest with qualified human authorities**. This is a deployer obligation scaled by tier—not a prohibition on speech or research.
+
+Tier 2 and Tier 3 deployers must ensure meaningful human review before finalizing outcomes in:
+* **Criminal justice:** Charging, sentencing, parole, probation, bail, and similar determinations may not be made autonomously by AI systems.
+* **Credit, employment, housing, insurance, healthcare, and essential services:** As described in §§2.3–2.4 and §4.1.
+
+Tier 1 entities experimenting in sandboxes must still respect universal red lines; high-stakes deployment into live consequential workflows triggers deployer-tier obligations regardless of upstream publisher safe harbor.
 
 ---
 
@@ -143,6 +167,7 @@ If you have views on any of the questions below, please [open an issue](https://
 ### Red lines and dual-use research
 - **CBRN carve-outs:** How should the framework distinguish weaponization support from legitimate academic, defensive, or public-health research — and who decides?
 - **Surveillance boundaries:** Where is the line between prohibited untargeted mass biometric surveillance and consent-based, warrant-backed, or narrowly scoped uses?
+- **Election conduct boundaries:** How should the framework distinguish prohibited electoral interference from lawful political organizing, satire, and clearly labeled synthetic media?
 
 ### Open-source edge cases
 - **Public demos and endpoints:** When a Tier 1 maintainer runs a free public demo or inference endpoint, are they still upstream — or do they become a deployer?
@@ -159,7 +184,7 @@ If you have views on any of the questions below, please [open an issue](https://
 - **Defining displacement:** How do we distinguish direct automation-driven displacement from normal attrition, market shifts, or unrelated layoffs?
 
 ### Biosphere and compute
-- **Environmental obligations:** The preamble treats biosphere preservation as paramount. Should Tier 2 and Tier 3 carry explicit compute-energy reporting, renewable-use targets, or environmental impact assessments — and at what scale?
+- **Environmental obligations:** The preamble treats biosphere preservation as paramount. Should Tier 2 and Tier 3 carry explicit public compute-energy and water reporting—and at what scale—without imposing renewable-use quotas or mandatory impact assessments that exceed an entity’s staffing capacity?
 
 ### International application
 - **Cross-border deployers:** When a Tier 3 multinational deploys in multiple countries, which jurisdiction’s tier rules, Ombuds, and penalties apply — incorporation country, user country, or harm location?
