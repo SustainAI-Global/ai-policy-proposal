@@ -23,6 +23,9 @@ This framework is not a speech code or a blanket AI licensing regime. It combine
 
 The tradition is minimal criminal law, tort liability, and disclosure—not a ministry of truth or a gatekeeper on research, opinion, or open-source experimentation. Gray areas and disputed cases belong in human courts and, where governments choose to establish them, community redress forums—not in preemptive algorithmic censorship.
 
+### Policy Intent
+This framework establishes light, proportional guardrails that enable responsible AI development and deployment while protecting open-source innovation, small-scale experimentation, and broad-based human employment. Regulatory obligations are deliberately minimized for smaller entities and are designed to be feasible with the assistance of AI tools. In high-stakes domains that affect liberty, livelihood, or safety, qualified human oversight is required both to reduce the risk of large-scale errors and to preserve meaningful human participation in the workforce as automation advances. The goal is to harness AI’s potential for human flourishing, job creation, and planetary stewardship without imposing burdens that would stifle innovation or accelerate unnecessary job displacement.
+
 ### The North Star: Human Dignity and Biosphere Care
 Technology must serve as a force multiplier for human flourishing and planetary stewardship. AI systems must function as auxiliary tools that augment human capabilities rather than mechanisms that substitute for human dignity, erode fundamental civil liberties, or deplete natural resources. 
 
@@ -63,11 +66,11 @@ While high-risk application areas (e.g., healthcare diagnostics, critical infras
 |     TIER 1      |         |     TIER 2      |         |     TIER 3      |
 | Micro & Grass   |         |      SMBs       |         | Enterprise/State|
 +-----------------+         +-----------------+         +-----------------+
-| * Sandbox Space |         | * Scaled Audits |         | * Independent   |
-| * Fix-First     |         | * Capped Fines  |         |   Third-Party   |
-|   Immunity      |         |   (% of Rev)    |         |   Audits & Red- |
-| * No Penalties  |         |                 |         |   Teaming       |
-|   for Volunteers|         |                 |         | * Uncapped /    |
+| * Sandbox Space |         | * Light, AI-    |         | * Independent   |
+| * Fix-First     |         |   Augmented     |         |   Third-Party   |
+|   Immunity      |         |   Compliance    |         |   Audits & Red- |
+| * No Penalties  |         | * Capped Fines  |         |   Teaming       |
+|   for Volunteers|         |   (% of Rev)    |         | * Uncapped /    |
 |                 |         |                 |         |   Global Fines  |
 +-----------------+         +-----------------+         +-----------------+
 ```
@@ -90,12 +93,14 @@ Regardless of an entity’s size, resource tier, or operational intent, certain 
 * **Illustrative thresholds** (subject to community refinement): annual revenue under **$2 million USD** and a limited paid workforce (e.g., fewer than 25 full-time equivalents), with **unpaid volunteers explicitly excluded** from headcount calculations. Nonprofit tax status alone does not confer Tier 1 status—a large nonprofit with substantial revenue is classified by its resources, not its mission.
 * **Verification:** Self-declaration by default, with audit-on-complaint or limited random sampling—not preemptive third-party certification.
 * **Compliance Posture:** Maximum regulatory latitude. Tier 1 entities are exempt from heavy administrative documentation, independent third-party auditing, pre-market safety case filings, and mandatory public resource reporting. When operating in higher-impact domains (such as deploying an educational assistant or a community-level ecological tracking tool), compliance is restricted to standard user disclaimers, data privacy compliance, and registration within public regulatory sandboxes.
-* **Liability and Penalty Structure:** **"Fix-First" Absolute Immunity.** Tier 1 entities face zero financial penalties for non-willful algorithmic errors or unintended compliance failures. If an asset or system causes harm or breaches standard thresholds, regulatory bodies issue a remediation order. The entity is granted a mandatory grace period to patch, roll back, or deactivate the system without financial duress. Personal liability for founders, maintainers, or volunteers is strictly prohibited absent proven criminal intent or fraudulent concealment.
+* **Liability and Penalty Structure:** **"Fix-First" Absolute Immunity.** Tier 1 entities face zero financial penalties for non-willful algorithmic errors or unintended compliance failures. If an asset or system causes harm or breaches standard thresholds, regulatory bodies issue a remediation order. The entity is granted a mandatory grace period to patch, roll back, or deactivate the system without financial duress. Personal liability for founders, maintainers, or volunteers is strictly prohibited absent proven criminal intent or fraudulent concealment. Tier 1 protections exist specifically to enable grassroots innovation, individual creators, volunteer-driven projects, and early-stage teams that create new opportunities and jobs—overly broad compliance requirements at this tier would undermine the innovation and employment this framework seeks to support.
 
 ### 2.3 Tier 2: Small to Medium-Sized Businesses (SMBs)
 * **Target entities:** Established small businesses, regional companies, and institutional deployers that exceed Tier 1 thresholds but remain within **SBA-aligned small-business scale**—organizations large enough to staff basic compliance and lightweight reporting, but still vulnerable to bankruptcy if liability were uncapped.
 * **Illustrative thresholds** (subject to community refinement): annual revenue from **approximately $2 million up to $40 million USD** (or the applicable SBA NAICS-specific receipt or employee limit, whichever better fits the sector), with a paid workforce typically above Tier 1 levels but below enterprise scale.
-* **Compliance Posture:** Scalable, standardized compliance designed to **increase proportionally within the band**—a $5M deployer bears less burden than a $35M deployer, without approaching Tier 3 audit depth. Tier 2 deployers must maintain basic internal risk logs, self-certified safety checklists, clear documentation of training data provenance, and direct human-in-command operational overrides. **Lightweight resource reporting** (energy source, approximate compute consumption, water use where readily measurable) is required where data can be collected without hiring dedicated sustainability staff; larger entities within this tier should publish summaries where practicable. **This is a transparency and disclosure requirement only—not a performance standard:** no renewable-use quotas, efficiency mandates, or prescriptive environmental targets attach to Tier 2 reporting. If deploying systems within designated high-impact sectors (e.g., housing, employment, finance), they must maintain a 72-hour incident reporting window to log systemic failures with the appropriate sector regulator.
+* **Compliance Posture:** Tier 2 obligations are intentionally **light, output-focused, and AI-augmented by design**. Deployers must maintain basic internal records sufficient to explain major design choices, training data provenance, and operational logic upon reasonable request, and must establish direct human-in-command operational overrides in high-stakes domains (see §2.5). Obligations **increase proportionally within the band**—a $5M deployer bears less burden than a $35M deployer, without approaching Tier 3 audit depth. Tier 2 entities are **expressly permitted to use AI-assisted systems, including open-source tools**, to generate, review, and maintain required records and reports; use of such tools creates a **presumption of reasonable compliance** with documentation duties, provided a qualified human remains ultimately accountable for the accuracy of the final output.
+* **Lightweight resource reporting:** Energy source, approximate compute consumption, and water use where readily measurable are required as a **transparency and disclosure measure only**—not a performance standard. No renewable-use quotas, efficiency mandates, or prescriptive environmental targets apply at this tier. Data may be collected without hiring dedicated sustainability staff; larger entities within Tier 2 should publish summaries where practicable.
+* **Incident reporting:** When deploying systems within designated high-impact sectors (e.g., housing, employment, finance), Tier 2 deployers must maintain **monthly summaries** of systemic failures logged with the appropriate sector regulator—balancing timely accountability with feasibility for small teams.
 * **Liability and Penalty Structure:** **Strictly Capped Financial Exposure.** Financial liabilities for Tier 2 entities are statutorily capped at a low, pre-defined percentage of their gross local revenue (e.g., maximum 1–2%). Penalties are mathematically structured to incentivize robust internal engineering discipline, quality assurance, and proactive post-market telemetry, ensuring that an operational error never results in corporate bankruptcy or structural liquidation.
 
 ### 2.4 Tier 3: Enterprise Corporations, Tech Giants, and State Organizations
@@ -104,19 +109,19 @@ Regardless of an entity’s size, resource tier, or operational intent, certain 
 * **Liability and Penalty Structure:** **Uncapped and Systemic Strict Liability.** Tier 3 deployers assume total legal and financial accountability for failures originating from their operational choices. Because they are the primary entities financializing technology at scale, penalties for negligence, willful ignorance of known hazards, or systemic biosphere harms are un-capped or anchored directly to global annual turnover scales. This structure ensures that thorough safety verification remains structurally cheaper than corporate negligence.
 
 ### 2.5 High-Stakes Human-in-Command Requirements
-For domains where automated outputs directly affect individual liberty, livelihood, or safety, AI may assist analysis and drafting, but **final decisions must rest with qualified human authorities**. This is a deployer obligation scaled by tier—not a prohibition on speech or research, and it complements the absolute prohibitions in §2.1 (which ban certain capabilities outright) and the redress pathways described in §4.1 (deployer duties and recommended community forums).
+In domains where automated outputs directly affect individual **liberty, livelihood, or safety**, AI may assist with analysis, drafting, and recommendation—but **final decisions must rest with qualified human authorities**. This requirement serves two purposes: reducing the risk of large-scale errors from fully autonomous systems, and **preserving meaningful human participation in the workforce** as automation advances. It complements the absolute prohibitions in §2.1 and the redress pathways in §4.1.
 
 Tier 2 and Tier 3 deployers must ensure meaningful human review before finalizing outcomes in:
-* **Criminal justice:** Charging, sentencing, parole, probation, bail, and similar determinations may not be made autonomously by AI systems.
-* **Credit, employment, housing, insurance, healthcare, and essential services:** As described in §§2.3–2.4; individuals subjected to significant automated decisions may request a plain-language explanation from the deployer, and may seek remedy through courts and tier-scaled liability as described in §4.1.
+* **Criminal justice determinations:** Charging, sentencing, parole, probation, bail, and similar outcomes may not be made autonomously by AI systems.
+* **Decisions affecting credit, employment, housing, insurance, healthcare access, and essential public services:** As described in §§2.3–2.4; individuals subjected to significant automated decisions may request a plain-language explanation from the deployer, and may seek remedy through courts and tier-scaled liability as described in §4.1.
 
-Tier 1 entities experimenting in sandboxes must still respect universal red lines; high-stakes deployment into live consequential workflows triggers deployer-tier obligations regardless of upstream publisher safe harbor.
+This is a deployer obligation scaled by tier—it is **not** a prohibition on AI assistance, research, or low-stakes tooling outside these consequential domains. Tier 1 entities operating in regulatory sandboxes remain subject to the universal red lines in §2.1; high-stakes deployment into live consequential workflows triggers the applicable tier’s human-in-command obligations regardless of upstream publisher safe harbor.
 
 ---
 
 ## III. The Open-Source Shield and Downstream Transfer Mechanics
 
-This framework treats open-source software, public model repositories, and algorithmic research as vital public goods equivalent to basic mathematics, literacy, and open scientific inquiry. 
+This framework treats open-source software, public model repositories, and algorithmic research as vital public goods equivalent to basic mathematics, literacy, and open scientific inquiry. These protections recognize that open-source development and sharing are major drivers of technological progress, new company formation, and job creation—chilling upstream publication through downstream liability would concentrate power in large organizations and reduce the diversity of innovation.
 
 ### 3.1 The "As-Is" Upstream Developer Immunity Clause
 All software source code, algorithmic weights, configuration parameters, and architectural frameworks published under open-source licenses (e.g., MIT, Apache 2.0, GPL) are provided strictly **"as-is," without warranty of any kind**, express or implied. 
@@ -127,6 +132,7 @@ All software source code, algorithmic weights, configuration parameters, and arc
 Legal accountability is an operational function triggered exclusively by **deployment and monetization, not by codebase creation**. 
 * The exact moment a Tier 2 or Tier 3 entity chooses to pull code from an open-source repository and embed it into a commercial workflow, **100% of the legal liability transfers strictly to that deploying entity**.
 * **No Backward Deflection:** A commercial deployer cannot deflect blame, pass regulatory fines backward, or initiate civil litigation against upstream open-source authors for system failures, unexpected adversarial jailbreaks, or un-patched vulnerabilities. The deployer chooses to integrate the tool; the deployer bears the exclusive burden of vetting its safety to the extent of their resource tier.
+* **Tier 2 Compliance Tool Safe Harbor:** Tier 2 deployers that use recognized open-source compliance, documentation, or reporting tools to fulfill their obligations under §2.3 receive a presumption of reasonable effort, provided a qualified human reviews and attests to the final outputs.
 
 ### 3.3 The Standardized "Known Hazard" Protocol
 To maintain the safety of the ecosystem without compromising open-source safe harbors, a structured, neutral notification mechanism is established:
@@ -176,6 +182,8 @@ If you have views on any of the questions below, please [open an issue](https://
 ### Tier boundaries and classification
 - **SBA alignment:** Tier 1 is intentionally set **well below** SBA small-business thresholds (~$2M revenue illustrative) to protect grassroots builders. Tier 2 maps to the **SBA small-business band** (~$2M–$40M receipts or sector-specific SBA limits). Tier 3 begins above those standards. Should the framework adopt NAICS-specific SBA tables verbatim, or keep simplified revenue bands for clarity?
 - **Graduated obligations within Tier 2:** How should compliance and reporting scale between a $3M startup and a $35M regional company—stepped sub-bands, continuous formulas, or headcount-revenue hybrids?
+- **Tier 2 AI compliance tools:** What criteria should define “recognized” open-source compliance or reporting tools eligible for the §3.2 safe harbor?
+- **Tier 2 incident reporting:** Is monthly summarization of systemic failures the right default for high-impact sectors, or should severe incidents trigger a faster notification window?
 - **Nonprofit treatment:** A $100M nonprofit deploys at Tier 3 regardless of mission; is that the right default, and should universities/colleges follow a distinct research carve-out?
 - **Who certifies tier status?** Self-declaration with audit-on-complaint (proposed default), annual filing, third-party attestation, or a hybrid?
 - **Crossing thresholds:** What happens when an organization grows mid-year (e.g., raises funding, hires staff, or crosses a revenue band)? Grace period, prospective-only application, or retroactive reclassification?
